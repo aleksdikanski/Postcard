@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55991A3F1B472F0600B77C3D /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 55991A3E1B472F0600B77C3D /* SagradaFamilia.jpeg */; };
 		559A765B1B45EB3A00E2BD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A765A1B45EB3A00E2BD6D /* AppDelegate.swift */; };
 		559A765D1B45EB3A00E2BD6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A765C1B45EB3A00E2BD6D /* ViewController.swift */; };
 		559A76601B45EB3A00E2BD6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559A765E1B45EB3A00E2BD6D /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55991A3E1B472F0600B77C3D /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
 		559A76551B45EB3A00E2BD6D /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559A76591B45EB3A00E2BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		559A765A1B45EB3A00E2BD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		559A76581B45EB3A00E2BD6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55991A3E1B472F0600B77C3D /* SagradaFamilia.jpeg */,
 				559A76591B45EB3A00E2BD6D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -157,6 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Aleks Dikanski";
 				TargetAttributes = {
 					559A76541B45EB3A00E2BD6D = {
 						CreatedOnToolsVersion = 6.2;
@@ -192,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				559A76601B45EB3A00E2BD6D /* Main.storyboard in Resources */,
+				55991A3F1B472F0600B77C3D /* SagradaFamilia.jpeg in Resources */,
 				559A76651B45EB3A00E2BD6D /* LaunchScreen.xib in Resources */,
 				559A76621B45EB3A00E2BD6D /* Images.xcassets in Resources */,
 			);
@@ -406,6 +411,7 @@
 				559A76761B45EB3A00E2BD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		559A76771B45EB3A00E2BD6D /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +420,7 @@
 				559A76791B45EB3A00E2BD6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

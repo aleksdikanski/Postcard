@@ -14,6 +14,7 @@
 		559A76621B45EB3A00E2BD6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559A76611B45EB3A00E2BD6D /* Images.xcassets */; };
 		559A76651B45EB3A00E2BD6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559A76631B45EB3A00E2BD6D /* LaunchScreen.xib */; };
 		559A76711B45EB3A00E2BD6D /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559A76701B45EB3A00E2BD6D /* PostcardTests.swift */; };
+		55F3B2041B48637500A3D9C4 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55F3B2031B48637500A3D9C4 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		559A766A1B45EB3A00E2BD6D /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		559A766F1B45EB3A00E2BD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		559A76701B45EB3A00E2BD6D /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		55F3B2031B48637500A3D9C4 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		559A76581B45EB3A00E2BD6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55F3B2031B48637500A3D9C4 /* AlbertEinsteinStamp.jpg */,
 				55991A3E1B472F0600B77C3D /* SagradaFamilia.jpeg */,
 				559A76591B45EB3A00E2BD6D /* Info.plist */,
 			);
@@ -197,6 +200,7 @@
 			files = (
 				559A76601B45EB3A00E2BD6D /* Main.storyboard in Resources */,
 				55991A3F1B472F0600B77C3D /* SagradaFamilia.jpeg in Resources */,
+				55F3B2041B48637500A3D9C4 /* AlbertEinsteinStamp.jpg in Resources */,
 				559A76651B45EB3A00E2BD6D /* LaunchScreen.xib in Resources */,
 				559A76621B45EB3A00E2BD6D /* Images.xcassets in Resources */,
 			);

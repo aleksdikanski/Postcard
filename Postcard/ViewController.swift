@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressend(sender: UIButton) {
-        
+        messageLabel.hidden = false
     }
 
 }

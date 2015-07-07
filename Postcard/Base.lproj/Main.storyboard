@@ -126,8 +126,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="enterMessageTextField" destination="SZI-4w-8Eb" id="3hT-Lg-rby"/>
-                        <outlet property="enterNameTextField" destination="wQX-lH-cK2" id="dg0-vn-56q"/>
+                        <outlet property="enterMessageTextField" destination="SZI-4w-8Eb" id="GlD-AR-80p"/>
+                        <outlet property="enterNameTextField" destination="wQX-lH-cK2" id="TRu-A4-HYj"/>
                         <outlet property="messageLabel" destination="a7A-5t-QyW" id="qUh-c3-Xqk"/>
                     </connections>
                 </viewController>

@@ -104,6 +104,15 @@
                                     <rect key="frame" x="10" y="227" width="303" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCR-mm-kBP">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="127" width="189" height="35"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="SZI-4w-8Eb"/>
                                 <exclude reference="rzs-a2-6lB"/>
                                 <exclude reference="wQX-lH-cK2"/>
+                                <exclude reference="eCR-mm-kBP"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="SZI-4w-8Eb"/>
                                 <include reference="rzs-a2-6lB"/>
                                 <include reference="wQX-lH-cK2"/>
+                                <include reference="eCR-mm-kBP"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="wQX-lH-cK2" id="TRu-A4-HYj"/>
                         <outlet property="mailButton" destination="rzs-a2-6lB" id="cS1-Sz-2uH"/>
                         <outlet property="messageLabel" destination="a7A-5t-QyW" id="qUh-c3-Xqk"/>
+                        <outlet property="nameLabel" destination="eCR-mm-kBP" id="2dr-uW-P1I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
